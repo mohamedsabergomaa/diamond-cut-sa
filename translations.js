@@ -40,6 +40,7 @@ var translations = {
   'hero-badge-1':          { ar: 'الرائد في قطاع المقاولات',      en: 'Leader in Contracting' },
   'hero-title-1_html':     { ar: 'مرحبا في شركة القاطع الماسي<br /><span class="gold">للمقاولات العامة</span>', en: 'Welcome to Diamond Cutting<br /><span class="gold">General Contracting</span>' },
   'hero-desc-1':           { ar: 'نقدم خدمات متكاملة في مجال قص الخرسانة والمقاولات بأحدث المعدات وأعلى معايير الجودة في الرياض', en: 'We provide integrated concrete cutting and contracting services with the latest equipment and highest quality standards in Riyadh.' },
+  'hero-years':            { ar: 'منذ 2008 — أكثر من 18 عاماً من الخبرة', en: 'Since 2008 — Over 18 Years of Experience' },
   'hero-btn-1':            { ar: 'خدماتنا',               en: 'Our Services' },
   'hero-btn-out-1':        { ar: 'تواصل معنا',            en: 'Contact Us' },
 
@@ -85,7 +86,34 @@ var translations = {
   'services-badge':        { ar: 'ما نقدمه',               en: 'What We Offer' },
   'services-title':        { ar: 'خدماتنا المتخصصة',        en: 'Our Specialized Services' },
   'services-desc':         { ar: 'نقدم مجموعة شاملة من خدمات قص الخرسانة والمقاولات العامة بأعلى مستويات الجودة والاحترافية', en: 'We offer a comprehensive range of concrete cutting and general contracting services at the highest levels of quality and professionalism.' },
-  'services-card-btn':     { ar: 'احصل على الخدمة',         en: 'Get Service' },
+  'services-card-btn':     { ar: 'اطلب الخدمة',             en: 'Request Service' },
+
+  /* --- New service names (7) --- */
+  'nservice-1': { ar: 'قص الخرسانة',              en: 'Concrete Cutting' },
+  'nservice-2': { ar: 'التخريم (الكور)',          en: 'Core Drilling' },
+  'nservice-3': { ar: 'قص الأرضيات بالمنشار',     en: 'Floor Sawing' },
+  'nservice-4': { ar: 'قص الجدران بالمنشار',      en: 'Wall Saw Cutting' },
+  'nservice-5': { ar: 'قص الخرسانة بالسلك الماسي', en: 'Wire Saw Concrete Cutting' },
+  'nservice-6': { ar: 'الهدم وإزالة المباني',     en: 'Demolition & Building Removal' },
+  'nservice-7': { ar: 'الدعم الفني والاستشارات',   en: 'Technical Support & Consultation' },
+
+  /* --- New service taglines (7) --- */
+  'ntag-1': { ar: 'حلول دقيقة لقص الخرسانة بأحدث المعدات', en: 'Precision concrete cutting with the latest equipment' },
+  'ntag-2': { ar: 'فتحات دائرية نظيفة لجميع التمديدات',     en: 'Clean circular openings for all utility passages' },
+  'ntag-3': { ar: 'قص أرضيات خرسانية بقدرة عالية',         en: 'High-capacity concrete floor cutting' },
+  'ntag-4': { ar: 'قص دقيق للجدران بأقل اهتزاز وغبار',     en: 'Precise wall cutting with minimal vibration & dust' },
+  'ntag-5': { ar: 'تقنية الأسلاك الماسية للخرسانة السميكة', en: 'Diamond wire technology for thick concrete' },
+  'ntag-6': { ar: 'هدم آمن ومنظم مع إزالة كاملة',          en: 'Safe, organized demolition with complete removal' },
+  'ntag-7': { ar: 'استشارات ودعم فني متخصص لمشاريعكم',     en: 'Expert consultation and technical support' },
+
+  /* --- New service descriptions (7, for modal) --- */
+  'ndesc-1': { ar: 'نقدم خدمة قص الخرسانة الاحترافية باستخدام أحدث المناشير الماسية والمعدات المتطورة. نضمن دقة متناهية في القطع مع أقل نسبة اهتزاز وغبار، مما يحافظ على سلامة المبنى والهيكل العام. فريقنا المدرب يمتلك خبرة واسعة في تنفيذ أصعب مشاريع قص الخرسانة في الرياض وجميع أنحاء المملكة.', en: 'We offer professional concrete cutting using the latest diamond saws and advanced equipment. We guarantee extreme cutting precision with minimal vibration and dust, maintaining building and structural safety. Our trained team has extensive experience in executing the most difficult concrete cutting projects in Riyadh and across the Kingdom.' },
+  'ndesc-2': { ar: 'خدمة متخصصة في عمل فتحات كور (Core Drilling) في الخرسانة بأحجام مختلفة وبأعلى مستويات الدقة. نستخدم معدات التخريم الأساسية المتطورة لعمل فتحات دائرية نظيفة لتمرير التمديدات الكهربائية والصحية ومجاري التكييف. ننفذ الفتحات بأقطار تتراوح من صغير إلى كبير حسب متطلبات المشروع.', en: 'Specialized core drilling service in concrete in various sizes with the highest precision. We use advanced core drilling equipment to create clean circular openings for electrical, plumbing, and HVAC passages. We execute openings in diameters ranging from small to large according to project requirements.' },
+  'ndesc-3': { ar: 'نستخدم مناشير الأرضيات المتطورة لقص وتقطيع الأرصفة والأرضيات الخرسانية بقدرة عالية وسرعة تنفيذ استثنائية. مثالية للمشاريع الصناعية والتجارية والطرق التي تتطلب قص أرضيات خرسانية سميكة بدقة عالية وبنظام تشغيل آمن وفعال.', en: 'We use advanced floor saws for cutting concrete slabs and pavements with high capacity and exceptional execution speed. Ideal for industrial, commercial and road projects requiring precise thick concrete floor cutting with safe and efficient operation.' },
+  'ndesc-4': { ar: 'نستخدم المناشير الماسية المتطورة لقص الجدران بدقة عالية مع أقل نسبة اهتزاز وغبار. المناشير الماسية توفر قدرة قطع عالية مع حواف نظيفة وناعمة دون الحاجة لمعالجة إضافية. مثالية لقص فتحات الأبواب والنوافذ وشيلرات التكييف ومجاري التهوية في جميع أنواع الجدران الخرسانية.', en: 'We use advanced diamond wall saws for precise cutting with minimal vibration and dust. Diamond saws provide high cutting capacity with clean, smooth edges requiring no additional treatment. Ideal for cutting door and window openings, AC chiller slots, and ventilation ducts.' },
+  'ndesc-5': { ar: 'تقنية متطورة لقص الخرسانة باستخدام الأسلاك الماسية التي تتيح قص الخرسانة السميكة والجدران العازمة بسمك يصل إلى متر واحد أو أكثر بدقة متناهية. تستخدم في المشاريع الكبيرة كالجسور والسدود والمنشآت الصناعية التي تتطلب قص خرسانة عالية السمك مع تحكم كامل.', en: 'Advanced diamond wire cutting technology enables cutting thick concrete and massive walls up to one meter or more with extreme precision. Used in large projects like bridges, dams, and industrial facilities requiring thick concrete cutting with full control.' },
+  'ndesc-6': { ar: 'خدمة متكاملة للهدم الآمن وإزالة المباني والمنشآت الخرسانية باستخدام أحدث المعدات والتقنيات. نضمن تنفيذ أعمال الهدم بدون اهتزازات أو تصدعات تضر بالمنشآت المجاورة، مع إدارة كاملة للمخلفات وإعادة تدويرها. فريقنا المدرب يمتلك الخبرة في إدارة مشاريع الهدم الكبيرة.', en: 'Integrated safe demolition and building removal service using the latest equipment and techniques. We ensure execution without vibrations or cracks that could damage adjacent structures, with complete waste management and recycling. Our trained team has experience managing large demolition projects.' },
+  'ndesc-7': { ar: 'نقدم استشارات هندسية متخصصة ودعماً فنياً في مجال قص الخرسانة والمقاولات لتحديد أفضل الحلول لمشاريعكم الإنشائية. يشمل ذلك تقييم الحالة الإنشائية للمبنى، واختيار التقنية المناسبة، وتقديم دراسة جدوى تفصيلية. مهندسونا المتخصصون يقدمون توصيات دقيقة تساعدكم على اتخاذ القرار الأمثل.', en: 'We offer specialized engineering consultation and technical support in concrete cutting and contracting to determine the best solutions for your projects. This includes structural assessment, selecting appropriate techniques, and providing detailed feasibility studies. Our engineers provide precise recommendations for optimal decision-making.' },
 
   /* Service descriptions (short - 15) */
   'sdesc-1':  { ar: 'خدمة متخصصة في قص وتخريم الخرسانة بدقة عالية باستخدام أحدث المعدات والتقنيات المتطورة.', en: 'Specialized concrete cutting and coring with high precision using the latest advanced equipment and techniques.' },
@@ -123,12 +151,8 @@ var translations = {
 
   /* --- Partners --- */
   'partners-badge':        { ar: 'ثقتهم بنا',              en: 'Their Trust' },
-  'partners-title':        { ar: 'شركاؤنا ومن خدمناهم',    en: 'Our Partners & Clients' },
+  'partners-title':        { ar: 'شركاء النجاح',          en: 'Success Partners' },
   'partners-desc':         { ar: 'نفخر بثقة كبرى الشركات والمؤسسات في المملكة العربية السعودية', en: 'We pride ourselves on the trust of major companies and institutions in Saudi Arabia.' },
-  'partner-alt-1':         { ar: 'شريك ١',                 en: 'Partner 1' },
-  'partner-alt-2':         { ar: 'شريك ٢',                 en: 'Partner 2' },
-  'partner-alt-3':         { ar: 'شريك ٣',                 en: 'Partner 3' },
-
   /* --- FAQ --- */
   'faq-badge':             { ar: 'لديك سؤال؟',             en: 'Have a Question?' },
   'faq-title':             { ar: 'الأسئلة الشائعة',        en: 'Frequently Asked Questions' },
@@ -190,6 +214,10 @@ var translations = {
   'footer-heading-contact':{ ar: 'معلومات التواصل',             en: 'Contact Information' },
   'footer-privacy':        { ar: 'سياسة الخصوصية',              en: 'Privacy Policy' },
   'footer-terms':          { ar: 'شروط الخدمة',                 en: 'Terms of Service' },
+  'social-facebook':    { ar: 'فيسبوك',      en: 'Facebook' },
+  'social-instagram':   { ar: 'انستغرام',    en: 'Instagram' },
+  'social-whatsapp':    { ar: 'واتساب',      en: 'WhatsApp' },
+
   'footer-copyright':      { ar: '© 2025 مؤسسة القاطع الماسي للمقاولات العامة - جميع الحقوق محفوظة | سجل تجاري: 1010594097', en: '© 2025 Diamond Cut General Contracting - All Rights Reserved | CR: 1010594097' },
 
   /* --- Blog --- */
@@ -221,4 +249,64 @@ var translations = {
   'ddesc-15': { ar: 'نستخدم المناشير الماسية المتطورة لقص الجدران بدقة عالية مع أقل نسبة اهتزاز وغبار. المناشير الماسية توفر قدرة قطع عالية مع حواف نظيفة وناعمة دون الحاجة لمعالجة إضافية. مثالية لقص فتحات الأبواب والنوافذ وشيلرات التكييف ومجاري التهوية في جميع أنواع الجدران الخرسانية.', en: 'We use advanced diamond saws for precise wall cutting with minimal vibration and dust. Diamond saws provide high cutting capacity with clean, smooth edges requiring no additional treatment. Ideal for cutting door and window openings, AC chiller slots, and ventilation ducts.' },
   'ddesc-16': { ar: 'خدمة متخصصة في عمل فتحات كور (Core Drilling) في الخرسانة بأحجام مختلفة وبأعلى مستويات الدقة. نستخدم معدات التخريم الأساسية المتطورة لعمل فتحات دائرية نظيفة لتمرير التمديدات الكهربائية والصحية ومجاري التكييف. ننفذ الفتحات بأقطار تتراوح من صغير إلى كبير حسب متطلبات المشروع.', en: 'Specialized core drilling service in concrete in various sizes with the highest precision. We use advanced core drilling equipment to create clean circular openings for electrical, plumbing, and HVAC passages. We execute openings in diameters ranging from small to large according to project requirements.' },
 
+  /* --- Stats --- */
+  'stat-1': { ar: 'مشروع منجز',       en: 'Projects Done' },
+  'stat-2': { ar: 'سنة خبرة',         en: 'Years Experience' },
+  'stat-3': { ar: 'عميل سعيد',        en: 'Happy Clients' },
+  'stat-4': { ar: 'شريك نجاح',        en: 'Success Partners' },
+
+  'ongoing-badge':          { ar: 'مشاريعنا',                     en: 'Our Projects' },
+  'ongoing-title':          { ar: 'نبني التميز ونحقق النتائج',    en: 'Building Excellence. Delivering Results.' },
+  'ongoing-desc':           { ar: 'نفخر بتنفيذ العديد من المشاريع الكبرى في مختلف أنحاء المملكة', en: 'We pride ourselves on executing numerous major projects across the Kingdom.' },
+
+  'proj-completed-badge':   { ar: 'المشاريع المنجزة',             en: 'Completed Projects' },
+  'proj-ongoing-badge':     { ar: 'المشاريع الجارية',             en: 'Ongoing Projects' },
+
+  'proj-c-1':  { ar: 'حدائق الملك عبد الله',                      en: 'King Abdullah Gardens' },
+  'proj-c-1-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-c-2':  { ar: 'حي المال (KAFD)',                          en: 'King Abdullah Financial District (KAFD)' },
+  'proj-c-2-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-c-3':  { ar: 'جامعة الأميرة نورة (بشراكة مع مجموعة بن لادن وشركة Saudi OG)', en: 'Princess Nourah University (In partnership with Binladin Group & Saudi OG Company)' },
+  'proj-c-3-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-c-4':  { ar: 'جامعة الملك سعود (بشراكة مع مجموعة بن لادن)', en: 'King Saud University (In partnership with Binladin Group)' },
+  'proj-c-4-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-c-5':  { ar: 'حي المال (KAFD) (بشراكة مع مجموعة بن لادن وشركة السيف)', en: 'King Abdullah Financial District (KAFD) (In partnership with Binladin Group & ElSaif Company)' },
+  'proj-c-5-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-c-6':  { ar: 'شركة الفنار – المقر الرئيسي، مخرج ٥',      en: 'El Fanar Company – Head Office, Exit 5' },
+  'proj-c-6-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-c-7':  { ar: 'مستشفى سليمان الحبيب (بشراكة مع مجموعة سليمان الحبيب ومجموعة الزامل)', en: 'Soliman Al Habib Hospital (In partnership with Soliman Al Habib Group & El Zamil Group)' },
+  'proj-c-7-loc': { ar: 'حي الحمراء، الرياض، المملكة العربية السعودية', en: 'Al Hamra Neighborhood, Riyadh, KSA' },
+
+  'proj-c-8':  { ar: 'وقف الملك عبد الله بالمسجد النبوي (بشراكة مع شركة سابك)', en: 'King Abdullah Endowment in Al-Masjid An-Nabawi (In partnership with SABAK Company)' },
+  'proj-c-8-loc': { ar: 'المدينة المنورة، المملكة العربية السعودية', en: 'Al Madinah Al Munawwarah, KSA' },
+
+  'proj-o-1':  { ar: 'حدائق الملك سلمان (KSG) (بشراكة مع MBL وFreyssinet السعودية وشركة نسما)', en: 'King Salman Gardens (KSG) (In partnership with MBL, Freyssinet Saudi Arabia & Nesma Company)' },
+  'proj-o-1-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-o-2':  { ar: 'مول الأفنيوز (بشراكة مع شركات نسما)',       en: 'The Avenues Mall (In partnership with Nesma Companies)' },
+  'proj-o-2-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-o-3':  { ar: 'مشروع القدية (بشراكة مع Infraroad Binyah وSALCO وتاج زابي ويوني باك وشبه الجزيرة)', en: 'Al Qiddiya (In partnership with Infraroad Binyah Company, SALCO, Taj Zabbi, Uni Back & Shibh Al Jazeera Company)' },
+  'proj-o-3-loc': { ar: 'الرياض، المملكة العربية السعودية',        en: 'Riyadh, KSA' },
+
+  'proj-o-4':  { ar: 'المسجد النبوي (بشراكة مع شركة سابك المدينة)', en: "The Prophet's Mosque (Al-Masjid an-Nabawi) (In partnership with SABAK Al Madinah Company)" },
+  'proj-o-4-loc': { ar: 'المدينة المنورة، المملكة العربية السعودية', en: 'Al Madinah Al Munawwarah, KSA' },
+
+  'proj-o-5':  { ar: 'المسجد الحرام (بشراكة مع مجموعة بن لادن)',   en: 'The Holy Mosque (Al-Masjid Al-Haram) (In partnership with Binladin Group)' },
+  'proj-o-5-loc': { ar: 'مكة المكرمة، المملكة العربية السعودية',   en: 'Makkah, KSA' },
+
+  'proj-o-6':  { ar: 'برج تام (بشراكة مع شركة سمو مشي)',          en: 'Tam Tower (In partnership with Sumou Mashi Company)' },
+  'proj-o-6-loc': { ar: 'المدينة المنورة، المملكة العربية السعودية', en: 'Al Madinah Al Munawwarah, KSA' },
+
+  'proj-o-7':  { ar: 'وقف الملك عبد الله بالمسجد النبوي (بشراكة مع شركة سابك)', en: 'King Abdullah Endowment in Al-Masjid An-Nabawi (In partnership with SABAK Company)' },
+  'proj-o-7-loc': { ar: 'المدينة المنورة، المملكة العربية السعودية', en: 'Al Madinah Al Munawwarah, KSA' },
+
+  'proj-o-8':  { ar: 'مشروع رؤيا المدينة (بشراكة مع شركة الكفاح)', en: "Ru'ya Al Madinah Project (In partnership with Al-Kifah Company)" },
+  'proj-o-8-loc': { ar: 'الدمام، المملكة العربية السعودية',        en: 'Dammam, KSA' },
 }; window.translations = translations;

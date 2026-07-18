@@ -120,6 +120,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Initial call
+  setTimeout(updateActiveNav, 100);
+
   // ==========================================
   // 5. COUNTER ANIMATION
   // ==========================================
@@ -159,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }, { threshold: 0.1 });
 
   // Observe fade-up elements
-  document.querySelectorAll('.service-card, .why-card, .faq-item, .contact-info-item').forEach(el => {
+  document.querySelectorAll('.service-card, .svc-card, .why-card, .faq-item, .contact-info-item, .partner-item, .project-card').forEach(el => {
     el.classList.add('fade-up');
     observer.observe(el);
   });
@@ -169,11 +172,17 @@ document.addEventListener('DOMContentLoaded', function () {
   if (statsStrip) observer.observe(statsStrip);
 
   // Stagger service cards
-  document.querySelectorAll('.service-card').forEach((card, i) => {
+  document.querySelectorAll('.service-card, .svc-card').forEach((card, i) => {
     card.style.transitionDelay = `${i * 0.08}s`;
   });
   document.querySelectorAll('.why-card').forEach((card, i) => {
     card.style.transitionDelay = `${i * 0.08}s`;
+  });
+  document.querySelectorAll('.partner-item').forEach((card, i) => {
+    card.style.transitionDelay = `${i * 0.12}s`;
+  });
+  document.querySelectorAll('.project-card').forEach((card, i) => {
+    card.style.transitionDelay = `${i * 0.06}s`;
   });
 
   // ==========================================
@@ -284,6 +293,14 @@ document.addEventListener('DOMContentLoaded', function () {
     'Assets/Servecis/5791850488167861952 (1).jpg',
     'Assets/Servecis/5791850488167861953.jpg',
     'Assets/Servecis/5791850488167861954.jpg',
+    'Assets/PARTNERS/WhatsApp Image 2026-07-14 at 9.58.39 PM.jpeg',
+    'Assets/PARTNERS/WhatsApp Image 2026-07-14 at 9.58.39 PM (1).jpeg',
+    'Assets/PARTNERS/WhatsApp Image 2026-07-14 at 9.58.40 PM.jpeg',
+    'Assets/PARTNERS/WhatsApp Image 2026-07-14 at 9.58.40 PM (1).jpeg',
+    'Assets/PARTNERS/WhatsApp Image 2026-07-14 at 9.58.40 PM (2).jpeg',
+    'Assets/PARTNERS/WhatsApp Image 2026-07-14 at 9.58.40 PM (3).jpeg',
+    'Assets/PARTNERS/WhatsApp Image 2026-07-14 at 9.58.40 PM (4).jpeg',
+    'Assets/PARTNERS/WhatsApp Image 2026-07-14 at 9.58.40 PM (5).jpeg',
   ];
   let galleryIndex = 0;
 
@@ -444,4 +461,47 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }, 100);
 
+});
+
+/* ==========================================
+   SERVICE MODAL (also used by index.html)
+========================================== */
+function openModal(el) {
+  var modal = document.getElementById('serviceModal');
+  if (!modal) return;
+  var src = el.getAttribute('data-img');
+  document.getElementById('modalImg').src = src;
+  var wrap = document.getElementById('modalImgWrap');
+  if (src && src.toLowerCase().endsWith('.png')) {
+    wrap.className = 'modal-img is-illustration';
+  } else {
+    wrap.className = 'modal-img';
+  }
+  var tKey = el.getAttribute('data-i18n-title');
+  var dKey = el.getAttribute('data-i18n-desc');
+  var lang = document.documentElement.lang || 'ar';
+  var tDiv = document.getElementById('modalTitle');
+  var dDiv = document.getElementById('modalDesc');
+  if (tKey && window.translations && window.translations[tKey]) {
+    tDiv.textContent = window.translations[tKey][lang];
+  } else {
+    tDiv.textContent = '';
+  }
+  if (dKey && window.translations && window.translations[dKey]) {
+    dDiv.textContent = window.translations[dKey][lang];
+  } else {
+    dDiv.textContent = '';
+  }
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal(e) {
+  if (e && e.target !== e.currentTarget) return;
+  var modal = document.getElementById('serviceModal');
+  if (!modal) return;
+  modal.classList.remove('active');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') closeModal();
 });
