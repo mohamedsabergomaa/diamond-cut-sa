@@ -70,15 +70,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const mainNav = document.getElementById('main-nav');
   hamburger.addEventListener('click', () => {
     mainNav.classList.toggle('open');
-    const spans = hamburger.querySelectorAll('span');
     hamburger.classList.toggle('active');
-    if (hamburger.classList.contains('active')) {
-      spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
-      spans[1].style.opacity = '0';
-      spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
-    } else {
-      spans.forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
-    }
+    document.body.classList.toggle('nav-open');
   });
 
   // Close nav on link click
@@ -86,8 +79,17 @@ document.addEventListener('DOMContentLoaded', function () {
     link.addEventListener('click', () => {
       mainNav.classList.remove('open');
       hamburger.classList.remove('active');
-      hamburger.querySelectorAll('span').forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
+      document.body.classList.remove('nav-open');
     });
+  });
+
+  // Close nav on backdrop click
+  document.addEventListener('click', function(e) {
+    if (mainNav.classList.contains('open') && !mainNav.contains(e.target) && !hamburger.contains(e.target)) {
+      mainNav.classList.remove('open');
+      hamburger.classList.remove('active');
+      document.body.classList.remove('nav-open');
+    }
   });
 
   // Mobile: sub-dropdown toggle

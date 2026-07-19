@@ -39,7 +39,7 @@ var translations = {
   /* --- Hero (3 slides) --- */
   'hero-badge-1':          { ar: 'الرائد في قطاع المقاولات',      en: 'Leader in Contracting' },
   'hero-title-1_html':     { ar: 'مرحبا في شركة القاطع الماسي<br /><span class="gold">للمقاولات العامة</span>', en: 'Welcome to Diamond Cutting<br /><span class="gold">General Contracting</span>' },
-  'hero-desc-1':           { ar: 'نقدم خدمات متكاملة في مجال قص الخرسانة والمقاولات بأحدث المعدات وأعلى معايير الجودة في الرياض', en: 'We provide integrated concrete cutting and contracting services with the latest equipment and highest quality standards in Riyadh.' },
+  'hero-desc-1':           { ar: 'نقدم خدمات متكاملة في مجال قص الخرسانة والمقاولات بأحدث المعدات وأعلى معايير الجودة في جميع أنحاء المملكة', en: 'We provide integrated concrete cutting and contracting services with the latest equipment and highest quality standards across the Kingdom.' },
   'hero-years':            { ar: 'منذ 2008 — أكثر من 18 عاماً من الخبرة', en: 'Since 2008 — Over 18 Years of Experience' },
   'hero-btn-1':            { ar: 'خدماتنا',               en: 'Our Services' },
   'hero-btn-out-1':        { ar: 'تواصل معنا',            en: 'Contact Us' },
@@ -63,7 +63,7 @@ var translations = {
   /* --- About --- */
   'about-badge':           { ar: 'من نحن',                en: 'About Us' },
   'about-title_html':      { ar: 'مؤسسة القاطع الماسي<br />للمقاولات العامة', en: 'Diamond Cut Est.<br />General Contracting' },
-  'about-text-1':          { ar: 'مؤسسة القاطع الماسي للمقاولات العامة هي شركة رائدة في مجال قص الخرسانة والمقاولات العامة، مقرها في الرياض. بفضل فريقنا من المحترفين ذوي الخبرة، نستخدم أحدث المعدات والتقنيات لضمان تقديم خدمات دقيقة وعالية الجودة.', en: 'Diamond Cut for General Contracting is a leading company in concrete cutting and general contracting, based in Riyadh. With our team of experienced professionals, we use the latest equipment and techniques to ensure accurate, high-quality services.' },
+  'about-text-1':          { ar: 'مؤسسة القاطع الماسي للمقاولات العامة هي شركة رائدة في مجال قص الخرسانة والمقاولات العامة، تخدم جميع أنحاء المملكة العربية السعودية. بفضل فريقنا من المحترفين ذوي الخبرة، نستخدم أحدث المعدات والتقنيات لضمان تقديم خدمات دقيقة وعالية الجودة.', en: 'Diamond Cut for General Contracting is a leading company in concrete cutting and general contracting, serving all regions of the Kingdom of Saudi Arabia. With our team of experienced professionals, we use the latest equipment and techniques to ensure accurate, high-quality services.' },
   'about-text-2':          { ar: 'نحن ملتزمون بتقديم أفضل الحلول الفعالة التي تعزز من جودة العمل وتحقق رضا العملاء، مما يجعلنا الخيار الأمثل للمشاريع الصغيرة والكبيرة على حد سواء.', en: 'We are committed to delivering the most effective solutions that enhance work quality and achieve client satisfaction, making us the ideal choice for both small and large projects.' },
   'about-feat-1':          { ar: '✓ فريق من المحترفين ذوي الخبرة', en: '✓ Team of experienced professionals' },
   'about-feat-2':          { ar: '✓ أحدث المعدات والتقنيات',       en: '✓ Latest equipment & technology' },
@@ -144,8 +144,8 @@ var translations = {
   'why-desc-3':            { ar: 'فريقنا من المهندسين والفنيين المدربين يضمن تنفيذ أعلى مستوى من الاحترافية', en: 'Our team of trained engineers and technicians ensures the highest level of professionalism.' },
   'why-title-4':           { ar: 'أسعار تنافسية',          en: 'Competitive Prices' },
   'why-desc-4':            { ar: 'نقدم أفضل الأسعار في السوق مع الحفاظ على أعلى معايير الجودة والاحترافية', en: 'We offer the best prices in the market while maintaining the highest quality and professionalism.' },
-  'why-title-5':           { ar: 'تغطية الرياض',           en: 'Riyadh Coverage' },
-  'why-desc-5':            { ar: 'نخدم جميع أحياء ومناطق الرياض ونستطيع التوسع للمناطق المجاورة حسب الحاجة', en: 'We serve all neighborhoods and areas of Riyadh and can expand to adjacent areas as needed.' },
+  'why-title-5':           { ar: 'تغطية جميع أنحاء المملكة', en: 'Kingdom-wide Coverage' },
+  'why-desc-5':            { ar: 'نقدم خدماتنا في جميع مدن ومناطق المملكة العربية السعودية، ونصل إليك أينما كنت', en: 'We provide our services in all cities and regions of Saudi Arabia, reaching you wherever you are.' },
   'why-title-6':           { ar: 'دعم على مدار الساعة',     en: '24/7 Support' },
   'why-desc-6':            { ar: 'فريق دعم العملاء متاح على مدار الساعة للإجابة على استفساراتكم وتلبية احتياجاتكم', en: 'Our customer support team is available around the clock to answer your inquiries.' },
 
@@ -159,8 +159,8 @@ var translations = {
 
   'faq-q-1':               { ar: 'ما هي خدمات قص الخرسانة التي تقدمونها؟', en: 'What concrete cutting services do you offer?' },
   'faq-a-1':               { ar: 'نقدم مجموعة متنوعة من خدمات قص الخرسانة، تشمل قص وتخريم الخرسانة، فتح وتوسيع الأبواب والنوافذ، إزالة الخرسانة، قص الخرسانة بالليزر، الهدم الجزئي، وتوسيع المساحات الداخلية، واستشارات قص الخرسانة.', en: 'We offer a variety of concrete cutting services, including cutting and coring, door and window opening, concrete removal, laser cutting, partial demolition, space expansion, and cutting consulting.' },
-  'faq-q-2':               { ar: 'هل تقدمون خدماتكم في جميع أحياء الرياض؟', en: 'Do you provide services in all areas of Riyadh?' },
-  'faq-a-2':               { ar: 'نعم، نقدم خدماتنا في جميع أحياء ومناطق الرياض، ونستطيع التوسع إلى المناطق المجاورة حسب الحاجة وبعد التنسيق المسبق.', en: 'Yes, we serve all neighborhoods and areas of Riyadh and can expand to neighboring areas as needed with prior coordination.' },
+  'faq-q-2':               { ar: 'هل تقدمون خدماتكم في جميع أنحاء المملكة؟', en: 'Do you provide services across the Kingdom?' },
+  'faq-a-2':               { ar: 'نعم، نقدم خدماتنا في جميع مدن ومناطق المملكة العربية السعودية. فريقنا متنقل وجاهز للوصول إليك أينما كنت في أي وقت.', en: 'Yes, we provide our services in all cities and regions of Saudi Arabia. Our team is mobile and ready to reach you wherever you are at any time.' },
   'faq-q-3':               { ar: 'كيف يمكنني الحصول على تقدير لتكلفة المشروع؟', en: 'How can I get a project cost estimate?' },
   'faq-a-3':               { ar: 'يمكنك الاتصال بنا على الرقم 966549804777+ أو ملء نموذج الاتصال على موقعنا للحصول على تقدير مجاني بناءً على تفاصيل مشروعك.', en: 'You can call us at +966549804777 or fill out the contact form on our website for a free estimate based on your project details.' },
   'faq-q-4':               { ar: 'ما هي المعدات التي تستخدمونها في قص الخرسانة؟', en: 'What equipment do you use for concrete cutting?' },
@@ -200,16 +200,16 @@ var translations = {
   /* --- Contact Info Sidebar --- */
   'contact-info-title':    { ar: 'معلومات التواصل',             en: 'Contact Information' },
   'ci-location':           { ar: 'الموقع',                      en: 'Location' },
-  'ci-address':            { ar: 'حي الدار البيضاء، الرياض 12211، المملكة العربية السعودية', en: 'Al Dar Al Bayda, Riyadh 12211, Saudi Arabia' },
+  'ci-address':            { ar: 'حي العليا الرياض، المملكة العربية السعودية', en: 'Al Olaya, Riyadh, Saudi Arabia' },
   'ci-phone':              { ar: 'الهاتف',                      en: 'Phone' },
   'ci-whatsapp':           { ar: 'واتساب',                      en: 'WhatsApp' },
   'ci-whatsapp-link':      { ar: 'راسلنا على واتساب',           en: 'Message us on WhatsApp' },
   'ci-hours':              { ar: 'ساعات العمل',                 en: 'Working Hours' },
   'ci-hours-val':          { ar: 'السبت - الخميس: 8 ص - 10 م',  en: 'Sat - Thu: 8 AM - 10 PM' },
-  'ci-map-title':          { ar: 'موقع شركة القاطع الماسي - الرياض', en: 'Diamond Cut Location - Riyadh' },
+  'ci-map-title':          { ar: 'موقع شركة القاطع الماسي - المملكة العربية السعودية', en: 'Diamond Cut Location - Saudi Arabia' },
 
   /* --- Footer --- */
-  'footer-about':          { ar: 'مؤسسة القاطع الماسي للمقاولات العامة هي شركة رائدة في مجال قص الخرسانة والمقاولات في الرياض. نلتزم بأعلى معايير الجودة والاحترافية.', en: 'Diamond Cut for General Contracting is a leading company in concrete cutting and contracting in Riyadh. We are committed to the highest quality and professionalism.' },
+  'footer-about':          { ar: 'مؤسسة القاطع الماسي للمقاولات العامة هي شركة رائدة في مجال قص الخرسانة والمقاولات في المملكة العربية السعودية. نلتزم بأعلى معايير الجودة والاحترافية.', en: 'Diamond Cut for General Contracting is a leading company in concrete cutting and contracting in Saudi Arabia. We are committed to the highest quality and professionalism.' },
   'footer-heading-pages':  { ar: 'صفحات هامة',                  en: 'Important Pages' },
   'footer-heading-contact':{ ar: 'معلومات التواصل',             en: 'Contact Information' },
   'footer-privacy':        { ar: 'سياسة الخصوصية',              en: 'Privacy Policy' },
@@ -222,7 +222,7 @@ var translations = {
 
   /* --- Blog --- */
   'blog-title':            { ar: 'المدونة - شركة القاطع الماسي للمقاولات العامة', en: 'Blog - Diamond Cut General Contracting' },
-  'blog-meta-desc':        { ar: 'مدونة شركة القاطع الماسي للمقاولات العامة - تعرف على أحدث خدماتنا في مجال قص الخرسانة وأعمال المقاولات بالرياض.', en: 'Diamond Cut General Contracting blog - Learn about our latest concrete cutting services and contracting work in Riyadh.' },
+  'blog-meta-desc':        { ar: 'مدونة شركة القاطع الماسي للمقاولات العامة - تعرف على أحدث خدماتنا في مجال قص الخرسانة وأعمال المقاولات في جميع أنحاء المملكة.', en: 'Diamond Cut General Contracting blog - Learn about our latest concrete cutting services and contracting work across the Kingdom.' },
   'blog-hero-badge':       { ar: 'آخر المقالات',                en: 'Latest Articles' },
   'blog-hero-title':       { ar: 'المدونة',                     en: 'Blog' },
   'blog-hero-desc':        { ar: 'تعرف على أحدث خدماتنا ومشاريعنا في مجال قص الخرسانة وأعمال المقاولات', en: 'Discover our latest services and projects in concrete cutting and contracting.' },
