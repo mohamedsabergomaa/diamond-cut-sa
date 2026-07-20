@@ -223,6 +223,8 @@ var translations = {
   /* --- Blog --- */
   'blog-title':            { ar: 'المدونة - شركة القاطع الماسي للمقاولات العامة', en: 'Blog - Diamond Cut General Contracting' },
   'blog-meta-desc':        { ar: 'مدونة شركة القاطع الماسي للمقاولات العامة - تعرف على أحدث خدماتنا في مجال قص الخرسانة وأعمال المقاولات في جميع أنحاء المملكة.', en: 'Diamond Cut General Contracting blog - Learn about our latest concrete cutting services and contracting work across the Kingdom.' },
+  'partner-featured-label': { ar: 'مشاريعنا المميزة', en: 'Featured Projects' },
+  'featured-badge':         { ar: 'مميز', en: 'Featured' },
   'blog-hero-badge':       { ar: 'آخر المقالات',                en: 'Latest Articles' },
   'blog-hero-title':       { ar: 'المدونة',                     en: 'Blog' },
   'blog-hero-desc':        { ar: 'تعرف على أحدث خدماتنا ومشاريعنا في مجال قص الخرسانة وأعمال المقاولات', en: 'Discover our latest services and projects in concrete cutting and contracting.' },
